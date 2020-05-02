@@ -1,0 +1,9 @@
+<h1>All Songs</h1>
+
+<table>
+  <tbody>
+    <% @songs.each do |song| %>
+      <tr><%= song.title %> | <%= song.released %></tr>
+    <% end %>
+  </tbody>
+</table>
